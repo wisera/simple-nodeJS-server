@@ -10,7 +10,6 @@
 // add the "/create-user" route and parse the incoming data (i.e. the username) and simply log it to the console
 
 const http = require('http')
-const { buffer } = require('stream/consumers')
 
 const server = http.createServer((req, res) => {
     console.log(req)
